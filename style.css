@@ -1,0 +1,85 @@
+:root {
+  --backgrond: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+}
+
+body{
+  color: white;
+  background-color: var(--backgrond);
+ font-family: 'Manrope', sans-serif;;
+}
+
+.texto1{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 80px;
+  
+}
+.clique{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botao-coffee{
+  border: solid;
+  border-radius: 50px;
+  background-color: var(--backgrond);
+  border-color: var(--button);
+  color: white;
+  padding: 5px;
+  border-width: 2px;
+  margin-top: 90px;
+
+  cursor: pointer;
+  font-family: 'Manrope', sans-serif;
+}
+
+.texto-coffee{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.imagem-blur{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.imagem-coffee{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.sombra{
+  text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+  color: black;
+}
+
+.botao{
+  background-color: black;
+  cursor: pointer;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 15px;
+}
+
+.abrir{
+  display: none;
+}
