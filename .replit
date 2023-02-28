@@ -6,7 +6,7 @@ hidden=[".config"]
 # directory= "/"
 
 [nix]
-channel = "stable-21_11"
+channel = "stable-22_11"
 
 [languages.html]
 pattern = "**/*.html"

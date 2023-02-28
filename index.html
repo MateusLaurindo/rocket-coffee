@@ -4,50 +4,112 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>rocket-coffee</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
 </head>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Outfit:wght@100&family=Poppins:wght@400;500&display=swap"
-  rel="stylesheet">
-
-
 <body>
-  
   <header>
-    <nav>
-      <img class="topo-img" src="./img/logo-mobile.svg" />
-      <button onclick="clicou()" class="botao">
-        <img id="botao-abrir" src="./img/menu-buguer-open.svg" />
-        <div id="botao-fechar"></div>
+    <nav class="navigation">
+      <img src="./imagens/logo-mobile.svg" class="banner">
+      <img src="./imagens/logo-desktop.svg" class="banner-desk">
+      <button class="botao-menu" onclick="clicou()">
+        <img src="./imagens/menu-buguer-open.svg" class="botao-open" id="botaoOpen">
+        <div id="botaoClose"></div>
       </button>
-      
     </nav>
-    <hr>
-    <main>
-      <div class="clique">
-        <span class="texto1">O café que fará seu código decolar para o próximo nível.</span>
-        <button class="botao-coffee">pegue seu café</button>
-      </div>
-
-      <div class="texto-coffee">
-        <p>Great Coffee</p>
-        <p class="sombra">
-          < Great Code />
-        </p>
-      </div>
-
-      <img class="imagem-blur" src="./img/blur-mobile.png" />
-      <img class="imagem-coffee" src="./img/rocket-coffee.png" />
-
-    </main>
-
+    <img src="./imagens/blur-2.png" class="blur2-top">
   </header>
+
+  <div class="lista-desk">
+    <ul class="links-desk">
+      <li class="lista-links">
+        <p class="link">Home</p>
+      </li>
+      <li class="lista-links">
+        <p class="link">Menu</p>
+      </li>
+      <li class="lista-links">
+        <p class="link">Recompensas</p>
+      </li>
+      <li class="lista-links">
+        <p class="link">Gift Cards</p>
+      </li>
+      <li class="lista-links">
+        <p class="link">Lojas</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="lista">
+    <ul class="lista-links">
+      <hr size="3" color="gray">
+      <li class="links">
+        <p>Home</p>
+      </li>
+      <hr size="3" color="gray">
+      <li class="links">
+        <p>Menu</p>
+      </li>
+      <hr size="3" color="gray">
+      <li class="links">
+        <p>Recompensas</p>
+      </li>
+      <hr size="3" color="gray">
+      <li class="links">
+        <p>Gift Cards</p>
+      </li>
+      <hr size="3" color="gray">
+      <li class="links">
+        <p>Lojas</p>
+      </li>
+      <hr size="3" color="gray">
+    </ul>
+  </div>
+
+  <div class="texto-descricao">
+    <span>O café que fará seu código decolar para
+      o próximo nível.
+    </span>
+  </div>
+
+  <main class="conteudo">
+
+  <div class="letreiro-desk">
+    <p class="texto-coffee-desk">Great Coffee</p>
+    <p class="texto-code-desk">
+      < Great Code/>
+    </p>
+  </div>
+
+
+    <div class="botao-pedido">
+      <button class="botao-cafe">
+        PEGAR MEU CAFÉ
+      </button>
+    </div>
+
+    <div class="letreiro">
+      <p class="texto-coffee">Great Coffee</p>
+      <p class="texto-code">
+        < Great Code />
+      </p>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <img src="./imagens/blur-mobile.png" class="blur-mobile">
+    <img src="./imagens/blur-1.png" class="blur1">
+  </footer>
+
+  <div class="footer-img">
+    <img src="./imagens/rocket-coffee.png" class="coffee-image">
+  </div>
+
   <script src="script.js"></script>
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
 </body>
 
 </html>
